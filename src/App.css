@@ -140,7 +140,7 @@ button.clear-list {
     color:#fff;
     outline: none;
     padding-top:2px;
- }
+}
 
 .list-group-item:nth-child(4n + 1) {
     background: linear-gradient(90deg, rgba(93, 12, 255, 1)0%,
@@ -168,7 +168,7 @@ button.clear-list {
 }
 
 .todo-icon {
-    font-size: 1.5em;
+    font-size: 2.5em;
 }
 .edit-icon {
     color: #fff;
@@ -215,15 +215,14 @@ button.clear-list {
     .list-group {
      font-size: 4px;
      margin-left:10px ;
-     margin-right: 5px;
+     margin-right: 20px;
      padding-left: 0;
      width: 70vw;
-     
     }
 
     .list-group-item h6{
     width: 100%;
-    font-size: 10px;
+    font-size: 12px;
     padding-left: 5px;
     }
 
@@ -251,13 +250,14 @@ button.clear-list {
     color: #fff;
     font-size: 17px;
     align-items: center;
-}
+    }
 
     .delete-icon {
     color: #fff;
     font-size: 17px;
     margin-right: 2px;
-}
+    margin-top: 15px;
+    }
 
 
     .clear-list h4{
@@ -308,17 +308,19 @@ button.clear-list {
     }
 
     .list-group-item{
-        font-size: 7px;
+    font-size: 10px;
     }
 
      .edit-icon {
     font-size: 25px;
     align-items: center;
+    margin-right: 3px;
     }
 
     .delete-icon {
     font-size: 25px;
-    margin-right: 2px;
+    margin-left: 3px;
+    margin-top: 4px;
     }
 
     button.clear-list {
@@ -356,31 +358,40 @@ button.clear-list {
      height:80px ;
     }
 
-.list-group{
-
+    .list-group{
     margin-right: 5px;
     width: 45vw;
     align-items: center;
-}
+    }
 
-.list-group-item {
+    .list-group-item {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 98%;
-    margin: 4px auto;
+    margin: 5px auto;
     color:#fff;
     outline: none;
-    padding-top:2px;
- }
+    padding-top:6px;
+    }
+
+   .edit-icon {
+    font-size: 25px;
+    margin-top: 6px;
+    }
+
+  .delete-icon {
+    font-size: 25px;
+    margin-left: 6px;
+    }
 
  .clear-list h4{
-    font-size: 17px ;
+    font-size: 17px;
     }
 
 }
 
-/* 
+
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
      .container {
@@ -390,7 +401,7 @@ button.clear-list {
     h3.title{
      color:#fff;
      margin-left: 3.5em;
- }
+    }
 
      input.todo-input {
      width:15vw;
@@ -429,6 +440,19 @@ button.clear-list {
     .todo-button.edit{
      font-size: x-small;
     }
+
+     .edit-icon {
+    font-size: 25px;
+    margin-top: 2px;
+    }
+
+    
+   .delete-icon {
+    font-size: 25px;
+    margin-top: 15px;
+    margin-left: 0;
+    }
+
 
     .clear-list h4{
     font-size: 18px;
